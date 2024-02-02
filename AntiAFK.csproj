@@ -3,11 +3,20 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
-    <RootNamespace>AntiAFK</RootNamespace>
+	<RootNamespace>AntiAFK</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>antiafk.ico</ApplicationIcon>
+    <SignAssembly>False</SignAssembly>
+	<AssemblyVersion>1.0.0.0</AssemblyVersion>
+	<Version>1.0.0</Version>
+	<FileVersion>1.0.0.0</FileVersion>
+	<Company>Arzola Solutions, LLC</Company>
+	<Authors>Noel Arzola Jr</Authors>
+	<Product>Anti-AFK</Product>
+	<ProductVersion>1.0.0.0</ProductVersion>
+	<Description>Anti-AFK / Idler, performs keyboard movement for you</Description>
   </PropertyGroup>
 
   <ItemGroup>
